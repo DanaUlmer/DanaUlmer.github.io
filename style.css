@@ -1,0 +1,77 @@
+/* i tried to reduce the amount of times using these properties by applying to all */
+* {
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: #2b1f31;
+}
+img {
+  width: 200px;
+  border-radius: 50%;
+  padding-top: 5%;
+  max-width: 300px;
+}
+
+header {
+  background-color: #74bec1;
+  margin: 1% 15%;
+  font-size: larger;
+}
+
+h2,
+h3 {
+  background-color: #5b446a;
+  margin: 1% 18%;
+}
+
+p,
+ul,
+ol {
+  background-color: #906387;
+  margin: 1% 18%;
+  padding: 1rem;
+  list-style-position: inside;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+a:hover {
+  color: #74bec1;
+}
+
+a:visited {
+  color: #2b1f31;
+}
+
+hr {
+  border: dashed;
+  border-color: rgb(69, 134, 137);
+  margin: 5%;
+}
+/* i wanted something fun so i made this button */
+
+button {
+  color: #74bec1;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+}
+/* button colors invert upon hover */
+button:hover {
+  color: white;
+  background-color: #74bec1;
+}
+
+footer {
+  margin: 8%;
+}
